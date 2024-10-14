@@ -16,13 +16,40 @@
             align-items: center;
             justify-content: center;
             min-height: 100vh;
+            padding: 40px 0;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
         #container {
-            width: 800px;
-            height: 500px;
+            padding: 60px;
             border: 2px solid;
+        }
+
+        .seperate-line {
+            width: 80%;
+            height: 2px;
+            border-radius: 5px;
+            background: #000;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .block-title {
+            color: green;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .block-sub-title {
+            color: blue;
+            font-weight: bold;
         }
 
     </style>
@@ -30,7 +57,51 @@
 </head>
 <body>
     <div id="container">
+        <div class="seperate-line"></div>
+
         <h1>Thierry Dohouin</h1>
+
+        <section id="carrer">
+            <p class="block-title">Junior frontEnd dev</p>
+            <p>Abomey-Calavi, Bénin</p>
+            <p>(+229) 97895657</p>
+            <p>dohouint@gmail.com</p>
+        </section>
+
+        <section id="skills">
+            <p class="block-title">Skills</p>
+            <p>HTML, CSS, JavaScript, Responsive Web Design</p>
+        </section>
+
+        <section id="education">
+            <p class="block-title">Education</p>
+            <p class="block-sub-title">IUT Lokossa, Lokossa - Bachelor in IT and Electronic Genius</p>
+            <p>10-2019 to 07-2022</p>
+            <p>For this 3 years, I did learn a lot things about <strong>Electronic</strong> like <strong>Arduino</strong></p>
+            <p>And then, it had, the learning of different programming languages like <strong>ASM</strong>, <strong>C++</strong> and <strong>Python</strong></p>
+            <p>It was very amazing adventure</p>
+        </section>
+
+        <section id="experience">
+            <p class="block-title">Expirence</p>
+            <p class="block-sub-title">Urphoran, Abomey-Calavi - Technician</p>
+            <p>11-2023 to <strong>now</strong></p>
+            <ul>
+                <li>Writing Report for different activity</li>
+                <li>Make Design with Software like Photoshop and Figma</li>
+                <li>Modeling 3D pieces</li>
+                <li>Using CNC like 3D printer Ender3 V2, Numerical Driller Shapeoko Pro and Laser slicer Omtech 100W</li>
+                <li>Using Column driller</li>
+            </ul>
+            <p>Skills: Figma, Photoshop, Creality, Carbide motion, Candle, Lightburn</p>
+        </section>
+
+        <section id="across-internet">
+            <p class="block-title">Across the Internet</p>
+            <p>My <a href="#">GitHub</a></p>
+            <p>My <a href="#">X</a></p>
+            <p>My <a href="#">Facebook</a></p>
+        </section>
     </div>
 </body>
 </html>
