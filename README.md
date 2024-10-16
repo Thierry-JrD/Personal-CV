@@ -11,7 +11,7 @@ This is a simple personal Curriculum Vitae (CV) created using HTML and CSS. It s
 
 To run this CV:
 
-1. A web browser (e.g., Chrome, Firefox, Safari).
+1. A web browser (e.g., Chrome, Firefox, Safari, Microsoft Edge, OperaGX).
 2. Basic knowledge of HTML and CSS (optional for viewing, helpful for customization).
 
 ## Running the Code
@@ -22,5 +22,5 @@ To run this CV:
    ```bash
    git clone https://github.com/Thierry-JrD/Personal-CV.git
 
-### Summary of Changes
-- Projet page URI : **[Deployment](https://personal-cv-silk.vercel.app/)**. 
+### Projet page URI
+- Here's project demo : **<a href="https://personal-cv-silk.vercel.app/" target="_blank" rel="noopener noreferrer">🔥See personal CV🔥</a>**. 
