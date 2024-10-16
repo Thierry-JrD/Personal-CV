@@ -4,7 +4,6 @@ This is a simple personal Curriculum Vitae (CV) created using HTML and CSS. It s
 
 ## Features
 
-- Responsive design for viewing on various screen sizes.
 - Sections for personal information, skills, education, experience, and links to social media profiles.
 - CSS styling for a clean and organized layout.
 
@@ -22,3 +21,6 @@ To run this CV:
 
    ```bash
    git clone https://github.com/Thierry-JrD/Personal-CV.git
+
+### Summary of Changes
+- Projet page URI : **[Deployment](https://personal-cv-silk.vercel.app/)**. 
